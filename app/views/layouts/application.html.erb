@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<%= favicon_link_tag 'DT-logo.jpg' %>
 <html>
   <head>
     <title>DailyTracker</title>
@@ -11,11 +12,19 @@
   <body>
 
     <div class="navbar">
-      <!-- <img src="assets/images/DT-logo.jpg" width="66px" height="66px"/> -->
       <%= image_tag"DT-logo.jpg", :class => "logo"%>
       <h1>Daily Tracker</h1>
     </div>
 
+
     <%= yield %>
+    <br><br><br><br>
+
+
+    <footer>
+      <hr>
+      <p>Created by Mitchell Klich, Rey-Nathan Gray, Robert Ramirez</p>
+    </footer>
+
   </body>
 </html>

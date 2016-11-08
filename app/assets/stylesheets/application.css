@@ -16,8 +16,7 @@
 
  body {
    margin: 0;
-   height: 2000px; /* Just temporary here so you could see the effect*/
- }
+}
 
  .navbar {
    width: 100%;
@@ -39,8 +38,15 @@
 }
 
  .navbar h1 {
-    text-align: center;
-    color: #7ABCC8;
-    padding-top: 0px;
-    margin-top: 0
+   text-align: center;
+   color: #7ABCC8;
+   padding-top: 0px;
+   margin-top: 0
  }
+
+footer {
+   position: absolute;
+ width: 100%;
+ text-align: center;
+ bottom: 0px;
+}
