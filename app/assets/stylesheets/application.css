@@ -13,3 +13,34 @@
  *= require_tree .
  *= require_self
  */
+
+ body {
+   margin: 0;
+   height: 2000px; /* Just temporary here so you could see the effect*/
+ }
+
+ .navbar {
+   width: 100%;
+   font-size: 1.75em;
+   padding-left: 10px;
+   padding-top: 8px;
+   height: 90px;
+   background-color: #928E8E;
+   overflow: hidden;
+   position: fixed;
+   top: 0;
+}
+
+ .logo {
+   width: 80px;
+   height:80px;
+   float: left;
+   border-radius: 50%;
+}
+
+ .navbar h1 {
+    text-align: center;
+    color: #7ABCC8;
+    padding-top: 0px;
+    margin-top: 0
+ }
