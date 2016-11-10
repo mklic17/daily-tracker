@@ -4,4 +4,7 @@ class HomeController < ApplicationController
 
   def table
   end
+
+  def form
+  end
 end

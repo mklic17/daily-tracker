@@ -14,6 +14,8 @@
  *= require_self
  */
 
+
+/*Template Start*/
  body {
    margin: 0;
 }
@@ -44,12 +46,18 @@
  }
 
 footer {
- position: absolute;
- width: 100%;
- text-align: center;
- bottom: 0px;
+   position: absolute;
+   width: 100%;
+   text-align: center;
+   bottom: 0px;
+   border-top: 1px solid lightgrey;
+   color: #7ABCC8;
 }
 
+/* Template End */
+
+
+/* Home Start */
 .heading {
    width: 60%;
    height: 700px;
@@ -68,3 +76,5 @@ footer {
    font-size: 2em;
    color: #7ABCC8;
 }
+
+/* Home End */
