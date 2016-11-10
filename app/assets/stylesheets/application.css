@@ -77,4 +77,31 @@ footer {
    color: #7ABCC8;
 }
 
+.trackTable{
+  width: 90%;
+  height: 630px;
+  margin-left: auto;
+  margin-right: auto;
+  /*border: 1px solid lightgrey;*/
+  color: #7ABCC8;
+
+}
+
+.trackTable table tr{
+   width: 100%;
+   font-size: 2em;
+   border: 1px solid lightgrey;
+}
+
+.trackTable table tr th{
+   width: 19%;
+   border: 1px solid lightgrey;
+}
+
+.tableTitle h5 {
+  font-size: 1em;
+}
+
+
+
 /* Home End */
