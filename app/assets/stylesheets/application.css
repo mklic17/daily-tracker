@@ -21,8 +21,7 @@
  .navbar {
    width: 100%;
    font-size: 1.75em;
-   padding-left: 10px;
-   padding-top: 8px;
+   padding: 8px 0px 0px 10px;
    height: 90px;
    background-color: #928E8E;
    overflow: hidden;
@@ -45,8 +44,27 @@
  }
 
 footer {
-   position: absolute;
+ position: absolute;
  width: 100%;
  text-align: center;
  bottom: 0px;
+}
+
+.heading {
+   width: 60%;
+   height: 700px;
+   margin-left: auto;
+   margin-right: auto;
+   border: 1px solid lightgrey;
+   color: #7ABCC8;
+}
+
+.heading h1 {
+   font-size: 3.5em;
+   padding-left: 50px;
+}
+
+.heading div h4, .heading h4 a{
+   font-size: 2em;
+   color: #7ABCC8;
 }
