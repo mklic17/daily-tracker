@@ -1,20 +1,59 @@
 <br><br><br><br><br><br><br><br><br>
 
-<div class = "tableTitle">
-<h5>My Tracker</h5>
+
+<div class="subHeading">
+  <h2>My Tracker</h4>
+  <%= link_to"+ Add Item", :controller=>"home", :action=>"get" %>
 </div>
 
-<div class="trackTable">
-
+<div class="tableDiv">
   <table>
-    <tr>
+    <thead>
       <th>Item</th>
       <th>Calories</th>
       <th>Total Fat</th>
       <th>Sodium</th>
       <th>Total Carb</th>
       <th>Protein</th>
+    </thead>
+
+    <!-- Hardcoded input -->
+    <tr>
+      <td>Cheeseburger</td>
+      <td>303 cal.</td>
+      <td>14 g.</td>
+      <td>589 mg.</td>
+      <td>30 g.</td>
+      <td>15 g.</td>
     </tr>
+
+    <tr>
+      <td>Gatorade</td>
+      <td>150 cal.</td>
+      <td>0 g.</td>
+      <td>250 mg.</td>
+      <td>38 g.</td>
+      <td>0 g.</td>
+    </tr>
+    <!-- End Hardcoded input -->
+
   </table>
+</div>
+
+<br>
+
+<div class="table">
+
+    <h3>Total: </h3>
+
+    <table class="totalTable">
+      <tr>
+        <th>453 cal.</th>
+        <th>14 g.</th>
+        <th>839 mg.</th>
+        <th>68 g.</th>
+        <th>15 g.</th>
+      </tr>
+    </table>
 
 </div>

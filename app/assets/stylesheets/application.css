@@ -82,32 +82,63 @@ footer {
    font-size: 2em;
    color: #7ABCC8;
 }
-
-.trackTable{
-  width: 90%;
-  height: 630px;
-  margin-left: auto;
-  margin-right: auto;
-  /*border: 1px solid lightgrey;*/
-  color: #7ABCC8;
-
-}
-
-.trackTable table tr{
-   width: 100%;
-   font-size: 2em;
-   border: 1px solid lightgrey;
-}
-
-.trackTable table tr th{
-   width: 19%;
-   border: 1px solid lightgrey;
-}
-
-.tableTitle h5 {
-  font-size: 1em;
-}
-
-
-
 /* Home End */
+
+
+
+/* Table page */
+.subHeading {
+   width: 80%;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.subHeading h2 {
+   float: left;
+}
+
+.subHeading a {
+   float: right;
+   text-decoration: none;
+   color: black;
+   font-size: 1.25em;
+   padding-top: 20px;
+}
+
+table thead th {
+   font-size: 1.50em;
+}
+
+.tableDiv, .table {
+   width: 90%;
+   margin-left: auto;
+   margin-right: auto;
+   color: #7ABCC8;
+   background-color: white;
+}
+
+.tableDiv table, .table table {
+   border-collapse: collapse;
+   width: 100%;
+   height: 100%;
+   text-align: center;
+}
+
+.tableDiv th, .tableDiv td {
+    border: 1px solid #7ABCC8;
+    width: 17%;
+    height: 50px;
+    font-size: 1.25em;
+}
+.table th, .table td {
+   border: 1px solid #7ABCC8;
+   width: 15%;
+   height: 50px;
+   font-size: 1.25em;
+}
+
+.table h3 {
+   float: left;
+}
+
+/* Table end */
