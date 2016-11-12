@@ -196,5 +196,36 @@ table thead th {
    width: 100%
 }
 
-
 /* End Form */
+
+/* Start Past */
+.pastHeading {
+   width: 60%;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+   color: #7ABCC8;
+}
+
+.pastHeading table {
+   text-align: left;
+   border-collapse: collapse;
+   width: 100%;
+   font-size: 1.75em;
+   background-color: white;
+}
+
+.pastHeading table tr td {
+   padding-left: 15px;
+   border: 1px solid lightgrey;
+   height: 80px;
+   padding-top: 10px;
+
+}
+
+.pastHeading table tr td p {
+   padding-right: 20px;
+   float: right
+}
+
+/* End Past */
