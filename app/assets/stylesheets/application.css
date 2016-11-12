@@ -144,11 +144,27 @@ table thead th {
 /* Table end */
 
 /* Form Page */
+.link {
+   padding-left: 10px;
+}
+.link a {
+   font-size: 1.25em;
+   border-radius: 5%;
+   padding: 10px;
+   text-decoration: none;
+   color: #7ABCC8;;
+}
+.link a:hover {
+   background-color: #7ABCC8;
+   color: white;
+}
+
 .formHeading {
    width: 80%;
    margin-left: auto;
    margin-right: auto;
-   text-align: center
+   text-align: center;
+   color: #7ABCC8;
 }
 
 .formTable {
@@ -161,6 +177,7 @@ table thead th {
    right: 0;
    margin: auto;
    text-align: center;
+   color: #7ABCC8;
 }
 
 .formTable table {
@@ -178,5 +195,6 @@ table thead th {
    height: 25px;
    width: 100%
 }
+
 
 /* End Form */
