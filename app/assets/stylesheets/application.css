@@ -16,12 +16,12 @@
 
 
 /*Template Start*/
- body {
+body {
    margin: 0;
    background-color: #fafafa
 }
 
- .navbar {
+.navbar {
    width: 100%;
    font-size: 1.75em;
    padding: 8px 0px 0px 10px;
@@ -32,19 +32,21 @@
    top: 0;
 }
 
- .logo {
+.logo {
    width: 80px;
    height:80px;
    float: left;
    border-radius: 50%;
 }
 
- .navbar h1 {
+.navbar h1 {
    text-align: center;
-   color: #7ABCC8;
+   color: #82C0CB;
    padding-right: 50px;
-   margin-top: 0
+   margin-top: 0;
+   z-index: 0;
  }
+
 
 footer {
    position: absolute;
@@ -52,7 +54,7 @@ footer {
    text-align: center;
    bottom: 0px;
    border-top: 1px solid lightgrey;
-   color: #7ABCC8;
+   color: #82C0CB;
 }
 
 /* Template End */
@@ -63,7 +65,7 @@ footer {
    width: 60vw;
    height: 60vh;
    border: 1px solid lightgrey;
-   color: #7ABCC8;
+   color: #82C0CB;
    background-color: white;
    position: absolute;
    top:0;
@@ -80,7 +82,7 @@ footer {
 
 .heading div h4, .heading h4 a{
    font-size: 2em;
-   color: #7ABCC8;
+   color: #82C0CB;
 }
 /* Home End */
 
@@ -113,7 +115,7 @@ table thead th {
    width: 90%;
    margin-left: auto;
    margin-right: auto;
-   color: #7ABCC8;
+   color: #82C0CB;
    background-color: white;
 }
 
@@ -125,13 +127,13 @@ table thead th {
 }
 
 .tableDiv th, .tableDiv td {
-    border: 1px solid #7ABCC8;
+    border: 1px solid #82C0CB;
     width: 17%;
     height: 50px;
     font-size: 1.25em;
 }
 .table th, .table td {
-   border: 1px solid #7ABCC8;
+   border: 1px solid #82C0CB;
    width: 15%;
    height: 50px;
    font-size: 1.25em;
@@ -152,10 +154,10 @@ table thead th {
    border-radius: 5%;
    padding: 10px;
    text-decoration: none;
-   color: #7ABCC8;;
+   color: #82C0CB;;
 }
 .link a:hover {
-   background-color: #7ABCC8;
+   background-color: #82C0CB;
    color: white;
 }
 
@@ -164,7 +166,7 @@ table thead th {
    margin-left: auto;
    margin-right: auto;
    text-align: center;
-   color: #7ABCC8;
+   color: #82C0CB;
 }
 
 .formTable {
@@ -177,7 +179,7 @@ table thead th {
    right: 0;
    margin: auto;
    text-align: center;
-   color: #7ABCC8;
+   color: #82C0CB;
 }
 
 .formTable table {
@@ -204,7 +206,7 @@ table thead th {
    margin-left: auto;
    margin-right: auto;
    text-align: center;
-   color: #7ABCC8;
+   color: #82C0CB;
 }
 
 .pastHeading table {

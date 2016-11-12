@@ -14,12 +14,14 @@
     <div class="navbar">
       <%= image_tag"DT-logo.jpg", :class => "logo"%>
       <h1>Daily Tracker</h1>
+
+      <%= link_to"Past", :controller=>"home", :action=>"past" %>
+      <%= link_to"Today", :controller=>"home", :action=>"table" %>
+
     </div>
 
 
     <%= yield %>
-
-
 
     <footer>
       <p>Created by Mitchell Klich, Rey-Nathan Gray, Robert Ramirez</p>
