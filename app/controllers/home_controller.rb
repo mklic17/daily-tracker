@@ -7,4 +7,7 @@ class HomeController < ApplicationController
 
   def form
   end
+
+  def past
+  end
 end
