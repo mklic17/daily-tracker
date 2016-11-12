@@ -142,3 +142,41 @@ table thead th {
 }
 
 /* Table end */
+
+/* Form Page */
+.formHeading {
+   width: 80%;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center
+}
+
+.formTable {
+   width: 70%;
+   height: 60%;
+   position: absolute;
+   top:0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   margin: auto;
+   text-align: center;
+}
+
+.formTable table {
+   width: 100%;
+}
+
+.formTable table tr td {
+   padding: 20px;
+   width: 33%;
+   height: 200px;
+   font-size: 1.25em;
+}
+
+.formTable table tr td input{
+   height: 25px;
+   width: 100%
+}
+
+/* End Form */
