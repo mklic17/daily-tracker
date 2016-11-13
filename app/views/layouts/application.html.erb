@@ -12,11 +12,16 @@
   <body>
 
     <div class="navbar">
-      <%= image_tag"DT-logo.jpg", :class => "logo"%>
+      <!-- <%= image_tag"DT-logo.jpg", :class => "logo"%> -->
+      <%= link_to image_tag("DT-logo.jpg"), {action: 'get', controller: 'home'}, :class => "logo"%>
+
       <h1>Daily Tracker</h1>
 
-      <%= link_to"Past", :controller=>"home", :action=>"past" %>
-      <%= link_to"Today", :controller=>"home", :action=>"table" %>
+      <!-- <ul>
+        <li></li>
+      </ul> -->
+      <!-- <%= link_to"Past", :controller=>"home", :action=>"past" %>
+      <%= link_to"Today", :controller=>"home", :action=>"table" %> -->
 
     </div>
 

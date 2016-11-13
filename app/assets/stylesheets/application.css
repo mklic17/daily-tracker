@@ -32,7 +32,7 @@ body {
    top: 0;
 }
 
-.logo {
+img {
    width: 80px;
    height:80px;
    float: left;
@@ -44,7 +44,6 @@ body {
    color: #82C0CB;
    padding-right: 50px;
    margin-top: 0;
-   z-index: 0;
  }
 
 
@@ -104,8 +103,13 @@ footer {
    text-decoration: none;
    color: black;
    font-size: 1.25em;
-   padding-top: 20px;
+   padding: 10px;
+   font-weight: bold;
+   background-color: #82C0CB;
+   border-radius: 10%;
 }
+
+
 
 table thead th {
    font-size: 1.50em;
@@ -116,7 +120,6 @@ table thead th {
    margin-left: auto;
    margin-right: auto;
    color: #82C0CB;
-   background-color: white;
 }
 
 .tableDiv table, .table table {
@@ -124,6 +127,8 @@ table thead th {
    width: 100%;
    height: 100%;
    text-align: center;
+   background-color: white;
+
 }
 
 .tableDiv th, .tableDiv td {
