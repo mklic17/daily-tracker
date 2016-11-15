@@ -10,7 +10,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20161115025253) do
+ActiveRecord::Schema.define(version: 20161115232955) do
+
+  create_table "activities", force: :cascade do |t|
+    t.string   "excercise"
+    t.float    "calories_burned"
+    t.time     "duration"
+    t.date     "date"
+    t.datetime "created_at",      null: false
+    t.datetime "updated_at",      null: false
+  end
 
   create_table "items", force: :cascade do |t|
     t.string   "itemName"
