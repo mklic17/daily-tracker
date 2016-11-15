@@ -1,3 +1,5 @@
+<br><br><br>
+
 <%= form_for(item) do |f| %>
   <% if item.errors.any? %>
     <div id="error_explanation">
@@ -40,6 +42,7 @@
     <%= f.label :protein %>
     <%= f.text_field :protein %>
   </div>
+
 
   <div class="actions">
     <%= f.submit %>
