@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  itemName: MyString
+  calories: 1.5
+  totalFat: 1.5
+  sodium: 1.5
+  totalCarb: 1.5
+  protein: 1.5
+
+two:
+  itemName: MyString
+  calories: 1.5
+  totalFat: 1.5
+  sodium: 1.5
+  totalCarb: 1.5
+  protein: 1.5

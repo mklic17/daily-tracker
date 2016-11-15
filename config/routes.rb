@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :items
   get 'home/get'
   get 'home/table'
   get 'home/form'
