@@ -13,38 +13,39 @@
     </div>
   <% end %>
 
-  <div class="field">
-    <%= f.label :itemName %>
-    <%= f.text_field :itemName %>
-  </div>
-
-  <div class="field">
-    <%= f.label :calories %>
-    <%= f.text_field :calories %>
-  </div>
-
-  <div class="field">
-    <%= f.label :totalFat %>
-    <%= f.text_field :totalFat %>
-  </div>
-
-  <div class="field">
-    <%= f.label :sodium %>
-    <%= f.text_field :sodium %>
-  </div>
-
-  <div class="field">
-    <%= f.label :totalCarb %>
-    <%= f.text_field :totalCarb %>
-  </div>
-
-  <div class="field">
-    <%= f.label :protein %>
-    <%= f.text_field :protein %>
-  </div>
-
-
-  <div class="actions">
-    <%= f.submit %>
-  </div>
-<% end %>
+  <div class="formTable">
+    <table>
+      <tr>
+        <td>
+          <%= f.label :item_Name %>
+          <%= f.text_field :itemName %>
+        </td>
+        <td>
+          <%= f.label :calories %>
+          <%= f.text_field :calories %>
+        </td>
+        <td>
+          <%= f.label :total_Fat %>
+          <%= f.text_field :totalFat %>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <%= f.label :sodium %>
+          <%= f.text_field :sodium %>
+        </td>
+        <td>
+          <%= f.label :total_Carb %>
+          <%= f.text_field :totalCarb %>
+        </td>
+        <td>
+          <%= f.label :protein %>
+          <%= f.text_field :protein %>
+        </td>
+      </tr>
+    </table>
+    <div class="actions">
+      <%= f.submit %>
+    </div>
+    <% end %>
+</div>

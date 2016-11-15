@@ -18,7 +18,8 @@
 /*Template Start*/
 body {
    margin: 0;
-   background-color: #fafafa
+   background-color: #fafafa;
+   min-width: 600px;
 }
 
 .navbar {
@@ -43,6 +44,7 @@ img {
    text-align: center;
    color: #82C0CB;
    padding-right: 50px;
+   padding-top: 25px;
    margin-top: 0;
  }
 
@@ -54,7 +56,9 @@ footer {
    bottom: 0px;
    border-top: 1px solid lightgrey;
    color: #82C0CB;
+    background-color: #fafafa;
 }
+
 
 /* Template End */
 

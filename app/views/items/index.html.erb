@@ -1,37 +1,55 @@
+<br><br><br><br><br><br><br>
 <p id="notice"><%= notice %></p>
 
-<h1>Items</h1>
+<div class="subHeading">
+  <h2>My Tracker</h4>
+  <%= link_to"+ Add Item", new_item_path  %>
+</div>
 
-<table>
-  <thead>
-    <tr>
-      <th>Itemname</th>
-      <th>Calories</th>
-      <th>Totalfat</th>
-      <th>Sodium</th>
-      <th>Totalcarb</th>
-      <th>Protein</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
 
-  <tbody>
-    <% @items.each do |item| %>
+
+<div class="tableDiv">
+  <table>
+    <thead>
       <tr>
-        <td><%= item.itemName %></td>
-        <td><%= item.calories %></td>
-        <td><%= item.totalFat %></td>
-        <td><%= item.sodium %></td>
-        <td><%= item.totalCarb %></td>
-        <td><%= item.protein %></td>
-        <td><%= link_to 'Show', item %></td>
-        <td><%= link_to 'Edit', edit_item_path(item) %></td>
-        <td><%= link_to 'Destroy', item, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <th>Item</th>
+        <th>Calories (cal.)</th>
+        <th>Total Fat (g.)</th>
+        <th>Sodium (mg.)</th>
+        <th>Total Carb (g.)</th>
+        <th>Protein (g.)</th>
+        <th colspan="2"></th>
       </tr>
-    <% end %>
-  </tbody>
-</table>
+    </thead>
 
-<br>
+    <tbody>
+      <% @items.each do |item| %>
+        <tr>
+          <td><%= item.itemName %></td>
+          <td><%= item.calories %></td>
+          <td><%= item.totalFat %></td>
+          <td><%= item.sodium %></td>
+          <td><%= item.totalCarb %></td>
+          <td><%= item.protein %></td>
+          <td>
+              <%= link_to 'Edit', edit_item_path(item) %>
+              <%= link_to 'Destroy', item, method: :delete%>
+          </td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
 
-<%= link_to 'New Item', new_item_path %>
+<br><br>
+  <table>
+    <thead>
+      <th><strong><h3>Total:</h3></strong></th>
+      <th><%= @items.sum('calories')%></th>
+      <th><%= @items.sum('totalFat') %></th>
+      <th><%= @items.sum('sodium') %></th>
+      <th><%= @items.sum('totalCarb') %></th>
+      <th><%= @items.sum('protein') %></th>
+    </thead>
+  </table>
+
+</div>
