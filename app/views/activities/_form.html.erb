@@ -11,27 +11,32 @@
     </div>
   <% end %>
 
-  <div class="field">
-    <%= f.label :excercise %>
-    <%= f.text_field :excercise %>
-  </div>
-
-  <div class="field">
-    <%= f.label :calories_burned %>
-    <%= f.text_field :calories_burned %>
-  </div>
-
-  <div class="field">
-    <%= f.label :duration %>
-    <%= f.time_select :duration %>
-  </div>
-
-  <div class="field">
-    <%= f.label :date %>
-    <%= f.date_select :date %>
-  </div>
+<div class="formTable">
+<table>
+  <tr>
+    <td>
+      <%= f.label :excercise %>
+      <%= f.text_field :excercise %>
+    </td>
+    <td>
+      <%= f.label :calories_burned %>
+      <%= f.text_field :calories_burned %>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <%= f.label :duration %>
+      <%= f.time_select :duration %>
+    </td>
+    <td>
+      <%= f.label :date %>
+      <%= f.date_select :date %>
+    </td>
+  </tr>
+</table>
 
   <div class="actions">
     <%= f.submit %>
   </div>
 <% end %>
+</div>
