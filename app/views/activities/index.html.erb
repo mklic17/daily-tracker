@@ -1,7 +1,10 @@
 <p id="notice"><%= notice %></p>
 
+<div class="subHeading">
+
 <h1>Activities</h1>
 
+<div class="tableDiv">
 <table>
   <thead>
     <tr>
@@ -20,9 +23,9 @@
         <td><%= activity.calories_burned %></td>
         <td><%= activity.duration %></td>
         <td><%= activity.date %></td>
-        <td><%= link_to 'Show', activity %></td>
-        <td><%= link_to 'Edit', edit_activity_path(activity) %></td>
-        <td><%= link_to 'Destroy', activity, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+
+        <td><%= link_to 'Edit', edit_activity_path(activity) %>
+        <%= link_to 'Destroy', activity, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
   </tbody>
@@ -31,3 +34,7 @@
 <br>
 
 <%= link_to 'New Activity', new_activity_path %>
+
+</div>
+
+</div>
