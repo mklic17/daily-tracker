@@ -15,28 +15,28 @@
 //= require turbolinks
 //= require_tree .
 
-$(window).scroll(function () {
-    var scrollh = $(this).scrollTop();
-    if (scrollh == 0) {
-        $(".navbar").css({
-            'height':'90px',
-            'font-size': '1.75em',
-            'color': '#87d37c',
-            'transition': 'all .1s ease-in-out'
-        });
-        $(".logo").css({
-            'height':'80px',
-            'width': '80px',
-            'transition': 'all .1s ease-in-out'
-        });
-    } else {
-        $(".navbar").css({
-            'height':'65px',
-            'font-size': '1.25em',
-        });
-        $(".logo").css({
-            'height':'55px',
-            'width': '55px',
-        });
-    }
-});
+// $(window).scroll(function () {
+//     var scrollh = $(this).scrollTop();
+//     if (scrollh == 0) {
+//         $(".navbar").css({
+//             'height':'90px',
+//             'font-size': '1.75em',
+//             'color': '#87d37c',
+//             'transition': 'all .1s ease-in-out'
+//         });
+//         $(".logo").css({
+//             'height':'80px',
+//             'width': '80px',
+//             'transition': 'all .1s ease-in-out'
+//         });
+//     } else {
+//         $(".navbar").css({
+//             'height':'65px',
+//             'font-size': '1.25em',
+//         });
+//         $(".logo").css({
+//             'height':'55px',
+//             'width': '55px',
+//         });
+//     }
+// });

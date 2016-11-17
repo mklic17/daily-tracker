@@ -28,7 +28,7 @@ class ActivitiesController < ApplicationController
 
     respond_to do |format|
       if @activity.save
-        format.html { redirect_to "/activities", notice: 'Activity was successfully created.' }
+        format.html { redirect_to "/", notice: 'Activity was successfully created.' }
         format.json { render :show, status: :created, location: @activity }
       else
         format.html { render :new }
