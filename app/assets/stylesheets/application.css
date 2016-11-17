@@ -59,7 +59,7 @@ body {
   border-radius: 10px;
 }
 
-img {
+.navbar div img {
    width: 80px;
    height:80px;
    float: left;
@@ -92,27 +92,32 @@ footer {
 
 /* Home Start */
 .heading {
-   width: 60vw;
-   height: 60vh;
-   border: 1px solid lightgrey;
-   color: #82C0CB;
-   background-color: white;
-   position: absolute;
-   top:0;
-   bottom: 0;
-   left: 0;
-   right: 0;
-   margin: auto;
+  width: 60vw;
+  height: 60vh;
+  border: 1px solid lightgrey;
+  color: #82C0CB;
+  background-color: white;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
 
 .heading h1 {
-   font-size: 3.5em;
-   padding: 0px 50px;
+  font-size: 3.5em;
+  padding: 0px 50px;
+}
+
+.runningImage {
+  text-align: center;
+  width: 15%;
 }
 
 .heading div h4, .heading h4 a{
-   font-size: 2em;
-   color: #82C0CB;
+  font-size: 2em;
+  color: #82C0CB;
 }
 /* Home End */
 
