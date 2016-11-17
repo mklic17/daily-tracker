@@ -40,3 +40,9 @@
 //         });
 //     }
 // });
+
+$(document).ready(function() {
+     //Call a variable to know the width of the window
+     var screenWidth = $(window).width();
+     $('body').css('width', screenWidth + 'px');
+  });

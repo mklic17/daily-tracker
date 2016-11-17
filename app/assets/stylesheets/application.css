@@ -25,6 +25,7 @@ body {
 }
 
 .navbar {
+    min-width: 700px;
   width: 100%;
   font-size: 1.75em;
   padding: 8px 0px 0px 10px;
@@ -99,7 +100,7 @@ footer {
 
 /* Home Start */
 .heading {
-  width: 60vw;
+  width: 700px;
   height: 625px;;
   border: 1px solid lightgrey;
   color: #82C0CB;
