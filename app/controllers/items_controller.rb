@@ -1,4 +1,6 @@
 class ItemsController < ApplicationController
+  skip_before_filter  :verify_authenticity_token
+  # http://stackoverflow.com/questions/15040964/warning-cant-verify-csrf-token-authenticity-in-case-of-api-development
   before_action :set_item, only: [:show, :edit, :update, :destroy]
 
   # GET /items

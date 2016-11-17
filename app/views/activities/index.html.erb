@@ -4,7 +4,7 @@
 <div class="subHeading">
 
   <div>
-    <h2>Activities</h2>
+    <h2>Activity Tracker</h2>
     <% date = Time.new %>
     <h1><%= date.month.to_s + "/" + date.day.to_s + "/" + date.year.to_s %></h1>
   </div>
@@ -29,7 +29,7 @@
       <tr>
         <td><%= activity.excercise %></td>
         <td><%= activity.calories_burned %></td>
-        <td><%= activity.duration %></td>
+        <td><%= activity.duration.hour %> hours <%= activity.duration.min %> minutes</td>
         <td><%= activity.date %></td>
 
         <td><%= link_to 'Edit', edit_activity_path(activity) %>

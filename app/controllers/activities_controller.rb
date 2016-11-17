@@ -1,4 +1,6 @@
 class ActivitiesController < ApplicationController
+  skip_before_filter  :verify_authenticity_token
+  # http://stackoverflow.com/questions/15040964/warning-cant-verify-csrf-token-authenticity-in-case-of-api-development
   before_action :set_activity, only: [:show, :edit, :update, :destroy]
 
   # GET /activities
@@ -28,7 +30,7 @@ class ActivitiesController < ApplicationController
 
     respond_to do |format|
       if @activity.save
-        format.html { redirect_to "/", notice: 'Activity was successfully created.' }
+        format.html { redirect_to "/activities ", notice: 'Activity was successfully created.' }
         format.json { render :show, status: :created, location: @activity }
       else
         format.html { render :new }
