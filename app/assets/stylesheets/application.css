@@ -18,30 +18,30 @@
 /*Template Start*/
 
 body {
-  min-width: 800px;
+  min-width: 680px;
   min-height: 670px;
   margin: 0;
   background-color: #fafafa;
 }
 
-#body {
-  min-width: 800px;
-}
-
 .navbar {
-   width: 100%;
-   font-size: 1.75em;
-   padding: 8px 0px 0px 10px;
-   height: 90px;
-   background-color: #928E8E;
-   overflow: hidden;
-   position: fixed;
-   top: 0;
+  width: 100%;
+  font-size: 1.75em;
+  padding: 8px 0px 0px 10px;
+  height: 90px;
+  background-color: #928E8E;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
 }
 
 .navbar div {
-  width: 33%;
+  width: 25%;
   float: left;
+}
+
+.navbar #title {
+  width: 50%;
 }
 
 .navbar div ul {
