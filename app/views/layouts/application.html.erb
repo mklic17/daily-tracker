@@ -11,14 +11,25 @@
 
   <body>
 
-    <div class="navbar">
-      <%= link_to image_tag("DT-logo.jpg"), "/", :class => "logo"%>
 
-      <h1>Daily Tracker</h1>
+        <div class="navbar">
+          <div>
+            <%= link_to image_tag("DT-logo.jpg"), "/", :class => "logo"%>
+          </div>
 
+          <div>
+            <h1>Daily Tracker</h1>
+          </div>
 
-    </div>
-    <br><br><br><br><br><br>
+          <div>
+            <ul>
+              <li><%= link_to"Excercise", :controller=>"activities", :action=>"index" %></li>
+              <li><%= link_to"Nutrition", :controller=>"items", :action=>"index" %></li>
+            </ul>
+          </div>
+
+        </div>
+<br><br><br><br>
 
     <%= yield %>
 
