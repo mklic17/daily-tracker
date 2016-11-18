@@ -97,64 +97,8 @@ footer {
 
 /* Template End */
 
-
-/* Home Start */
-.heading {
-  width: 700px;
-  height: 625px;;
-  border: 1px solid lightgrey;
-  color: #82C0CB;
-  background-color: white;
-  /*position: relative;*/
-  /*top:0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;*/
-  margin-left: auto;
-  margin-right: auto;
-  /*z-index: 1;*/
-}
-
-.heading h1 {
-  font-size: 3.5em;
-  padding: 0px 50px;
-}
-
-.runningImage {
-  text-align: center;
-  width: 10%;
-  z-index: -1;
-}
-@media screen and (max-height: 750px) {
-    .runningImage {
-        display: none;
-    }
-}
-
-.heading div {
-  width: 550px;
-  /*word-spacing: 10px;*/
-  white-space: pre-line;
-}
-
-
-.heading div h4, .heading h4 a{
-  padding: 5px 10px;
-  font-size: 2em;
-  color: #82C0CB;
-  border-radius: 10px;
-}
-
-.heading h4 a:hover {
-  background-color: #82C0CB;
-  color: white;
-}
-/* Home End */
-
-
-
 /* Table page */
+/* This will affect both the activities and items index views That's why it is here*/
 .subHeading {
    width: 80%;
    margin-left: auto;
@@ -224,9 +168,12 @@ table thead th {
 /* Table end */
 
 /* Form Page */
+/* This will affect both the activities and items index views That's why it is here*/
+
 .link {
    padding-left: 10px;
 }
+
 .link a {
    font-size: 1.25em;
    border-radius: 5%;
@@ -234,6 +181,7 @@ table thead th {
    text-decoration: none;
    color: #82C0CB;;
 }
+
 .link a:hover {
    background-color: #82C0CB;
    color: white;
@@ -277,35 +225,3 @@ table thead th {
 }
 
 /* End Form */
-
-/* Start Past */
-.pastHeading {
-   width: 60%;
-   margin-left: auto;
-   margin-right: auto;
-   text-align: center;
-   color: #82C0CB;
-}
-
-.pastHeading table {
-   text-align: left;
-   border-collapse: collapse;
-   width: 100%;
-   font-size: 1.75em;
-   background-color: white;
-}
-
-.pastHeading table tr td {
-   padding-left: 15px;
-   border: 1px solid lightgrey;
-   height: 80px;
-   padding-top: 10px;
-
-}
-
-.pastHeading table tr td p {
-   padding-right: 20px;
-   float: right
-}
-
-/* End Past */

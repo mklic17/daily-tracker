@@ -1,3 +1,55 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.heading {
+  width: 700px;
+  height: 625px;;
+  border: 1px solid lightgrey;
+  color: #82C0CB;
+  background-color: white;
+  /*position: relative;*/
+  /*top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;*/
+  margin-left: auto;
+  margin-right: auto;
+  /*z-index: 1;*/
+}
+
+.heading h1 {
+  font-size: 3.5em;
+  padding: 0px 50px;
+}
+
+.runningImage {
+  text-align: center;
+  width: 10%;
+  z-index: -1;
+}
+@media screen and (max-height: 750px) {
+    .runningImage {
+        display: none;
+    }
+}
+
+.heading div {
+  width: 550px;
+  /*word-spacing: 10px;*/
+  white-space: pre-line;
+}
+
+
+.heading div h4, .heading h4 a{
+  padding: 5px 10px;
+  font-size: 2em;
+  color: #82C0CB;
+  border-radius: 10px;
+}
+
+.heading h4 a:hover {
+  background-color: #82C0CB;
+  color: white;
+}
+/* Home End */
